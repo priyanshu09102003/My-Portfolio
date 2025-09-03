@@ -1,3 +1,5 @@
+import Button from "../components/Button"
+import HeroExperience from "../components/HeroModels/HeroExperience"
 import { words } from "../constants"
 
 const Hero = () => {
@@ -17,7 +19,7 @@ const Hero = () => {
 
                 <div className="flex flex-col gap-7">
                     <div className="hero-text">
-                        <h2>Shaping 
+                        <h1>Shaping 
                             
                             <span className="slide">
                                 <span className="wrapper">
@@ -37,10 +39,32 @@ const Hero = () => {
                                 </span>
 
                             </span>
-                        </h2>
-                        <h2>into <span className="abstract-text abstract-projects">Real Projects</span></h2>
-                        <h2><span className="stellar-results abstract-text">that Deliver Results</span></h2>
+                        </h1>
+
+                       
+
+
+                        <h1>into <span className="abstract-text abstract-projects">Real Projects</span></h1>
+                       <h1><span className="stellar-results abstract-text">that Deliver </span>{" "}<span className="glitch-results " data-text="Results">Results</span> </h1>
                     </div>
+
+
+                     <p className="text-gray-400 md:text-xl relative z-10 pointer-events-none lg:w-[50%]">
+
+                            Hi, I'm Priyanshu. A full-stack developer passionate about <b>problem-solving</b>, <b>system design</b>, and building with <b>Generative AI</b>.
+                            
+                    </p>
+                     
+                  <div className="flex flex-col lg:flex-row md:flex-row gap-6">
+
+                    <Button
+                    className = "md:w-80 md:h-16 w-60 h-12"
+                    id = "button"
+                    text = "See my Work"
+                    />
+   
+                  </div>
+
 
                 </div>
                 
@@ -49,6 +73,15 @@ const Hero = () => {
 
 
             {/* 3D model */}
+
+            <figure>
+
+                <div className="hero-3d-layout">
+
+                    <HeroExperience />
+                    
+                </div>
+            </figure>
 
         </div>
 
