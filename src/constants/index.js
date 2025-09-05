@@ -1,10 +1,10 @@
 const navLinks = [
   {
-    name: "Work",
+    name: "Projects",
     link: "#work",
   },
   {
-    name: "Experience",
+    name: "Education",
     link: "#experience",
   },
   {
@@ -12,8 +12,8 @@ const navLinks = [
     link: "#skills",
   },
   {
-    name: "Testimonials",
-    link: "#testimonials",
+    name: "Achievements",
+    link: "#achievements",
   },
 ];
 
@@ -30,7 +30,7 @@ const words = [
 
 const counterItems = [
   { value: 95, suffix: "% +", label: "Academic Score" },
-  { value: 5, suffix: "+", label: "Technologies Mastered" },
+  { value: 10, suffix: "+", label: "Technologies Mastered" },
   { value: 150, suffix: "+", label: "GitHub Contributions" },
   { value: 200, suffix: "+", label: "Hours of Coding" },
 ];
